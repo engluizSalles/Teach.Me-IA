@@ -158,3 +158,16 @@ details.suggestion{
 .box_footer span{
     color: var(--primary);
 }
+
+.box_chat{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.box_chat >h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
