@@ -152,10 +152,10 @@ details.suggestion{
     width: 100%;
     padding-top: 20px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 }
 
-.box_footer span{
+.box_footer p span{
     color: var(--primary);
 }
 
@@ -169,5 +169,85 @@ details.suggestion{
 
 .box_chat >h1{
     font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.box_chat >h1 span{
+    color: var(--primary);
     font-weight: 700;
 }
+
+.question{
+    width: 100%;
+    background-color: var(--foreground-primary);
+    padding: 20px 15px;
+    border: 1px solid var(--border-primary);
+    border-radius: 4px;
+}
+
+.question h2{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: var(--text-color-question);
+}
+
+.answer{
+    width: 100%;
+    background-color: var(--foreground-primary);
+    border: 1px solid var(--border-primary);
+    border-radius: 4px;
+}
+
+.answer h2{
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    border-bottom: 1px solid var(--border-primary);
+    font-weight: 400;
+}
+
+.answer p{
+    padding: 20px 15px;
+    font-weight: 500;
+}
+
+.feedback{
+    width: 100%;
+    padding: 20px 15px;
+    background-color: var(--foreground-secondary);
+    border: 1px solid var(--border-secondary);
+    border-radius: 4px;
+}
+
+.feedback h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback h2 span{
+    color: var(--primary);
+}
+
+.feedback p{
+    margin-bottom: 20px;
+}
+
+.feedback .actions{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-secondary);
+}
+
+.feedback .actions button{
+    padding: 8px 20px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: var(--text-color);
+}
+
